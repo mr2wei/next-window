@@ -1,0 +1,12 @@
+.site {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: flex-start;
+  min-height: calc(100vh - 3rem);
+}
+
+.content {
+  flex: 1;
+  min-width: 0;
+}

@@ -1,0 +1,38 @@
+.site nav {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 1.25rem 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.navigation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.navigation-list a {
+  display: block;
+  padding: 0.5rem 0.75rem;
+  color: #4b5563;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.navigation-list a:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.navigation-list a.active {
+  background-color: #e5e7eb;
+  color: #111827;
+  font-weight: 600;
+}
